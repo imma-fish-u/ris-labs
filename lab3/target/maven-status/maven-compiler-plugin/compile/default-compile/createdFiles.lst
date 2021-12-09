@@ -1,0 +1,12 @@
+net\proselyte\workmanager\dao\WorkerDao.class
+net\proselyte\workmanager\dao\WorkerDaoImpl.class
+net\proselyte\workmanager\dao\FirmDaoImpl.class
+net\proselyte\workmanager\service\WorkerService.class
+net\proselyte\workmanager\controller\FirmController.class
+net\proselyte\workmanager\dao\FirmDao.class
+net\proselyte\workmanager\service\FirmServiceImpl.class
+net\proselyte\workmanager\service\WorkerServiceImpl.class
+net\proselyte\workmanager\service\FirmService.class
+net\proselyte\workmanager\model\Firm.class
+net\proselyte\workmanager\controller\WorkerController.class
+net\proselyte\workmanager\model\Worker.class

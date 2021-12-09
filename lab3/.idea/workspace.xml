@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Work:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c62353b3-1b48-47b6-9784-e42ddcd1faa6" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Work@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Work@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Work@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="work: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Work@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="work: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="firm: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Work@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="work: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="worker: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="BookManger" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aUvVJiePyBvxm8I6vdKQ2UVa48" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Lab3Plus(Голубева)/OfficeManager" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.5463917" />
+    <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.32">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.database.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorDevice" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="clearAppDataOnEachLaunch" value="true" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
+      <setting name="launchBrowser" value="false" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.0.32" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="b2a9dca7-9d0b-4e1e-98a8-afb19c1328d2" />
+      <deployment>
+        <artifact name="Work:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_0_32_Work_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="1057" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AppTests" />
+      <item itemvalue="Tomcat Server.Tomcat 8.0.32" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringBeansView">
+    <option name="showFilesets" value="false" />
+    <option name="showInfrastructureBeans" value="false" />
+    <option name="showDoc" value="false" />
+    <option name="showGraph" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c62353b3-1b48-47b6-9784-e42ddcd1faa6" name="Default" comment="" />
+      <created>1457083467003</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1457083467003</updated>
+      <workItem from="1457083470332" duration="4758000" />
+      <workItem from="1457088564563" duration="428000" />
+      <workItem from="1586803011016" duration="7618000" />
+      <workItem from="1586857543840" duration="9683000" />
+      <workItem from="1586938673862" duration="9955000" />
+      <workItem from="1586973766317" duration="512000" />
+      <workItem from="1586975497666" duration="608000" />
+      <workItem from="1587377230274" duration="99000" />
+      <workItem from="1587378719662" duration="1959000" />
+      <workItem from="1587562147700" duration="714000" />
+      <workItem from="1587584041191" duration="2883000" />
+      <workItem from="1587636377356" duration="1177000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="27" key="#Assign_Data_Sources" timestamp="1586950280006">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="27" key="#Assign_Data_Sources/0.0.1366.738@0.0.1366.738" timestamp="1586950280006" />
+    <state x="275" y="27" key="#Inspections" timestamp="1586963536297">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="27" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1586963536297" />
+    <state x="275" y="27" key="#SQL_Dialects" timestamp="1586809296638">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="27" key="#SQL_Dialects/0.0.1366.738@0.0.1366.738" timestamp="1586809296638" />
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586861910669">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1586861910669" />
+    <state x="488" y="52" key="#com.intellij.ide.util.MemberChooser" timestamp="1586807482390">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="52" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1586807482390" />
+    <state x="531" y="257" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586804008899">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="531" y="257" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.738@0.0.1366.738" timestamp="1586804008899" />
+    <state x="399" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586806974703">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="399" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738@0.0.1366.738" timestamp="1586806974703" />
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1586954317741">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1586954317741" />
+    <state width="905" height="315" key="GridCell.Tab.0.bottom" timestamp="1587385525039">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="315" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1587385525039" />
+    <state width="905" height="315" key="GridCell.Tab.0.center" timestamp="1587385525038">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="315" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1587385525038" />
+    <state width="905" height="315" key="GridCell.Tab.0.left" timestamp="1587385525037">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="315" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1587385525037" />
+    <state width="905" height="315" key="GridCell.Tab.0.right" timestamp="1587385525038">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="315" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1587385525038" />
+    <state width="905" height="315" key="GridCell.Tab.1.bottom" timestamp="1587385525040">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="315" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1587385525040" />
+    <state width="905" height="315" key="GridCell.Tab.1.center" timestamp="1587385525039">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="315" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1587385525039" />
+    <state width="905" height="315" key="GridCell.Tab.1.left" timestamp="1587385525039">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="315" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1587385525039" />
+    <state width="905" height="315" key="GridCell.Tab.1.right" timestamp="1587385525039">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="315" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1587385525039" />
+    <state width="905" height="315" key="GridCell.Tab.2.bottom" timestamp="1587385525041">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="315" key="GridCell.Tab.2.bottom/0.0.1366.738@0.0.1366.738" timestamp="1587385525041" />
+    <state width="905" height="315" key="GridCell.Tab.2.center" timestamp="1587385525041">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="315" key="GridCell.Tab.2.center/0.0.1366.738@0.0.1366.738" timestamp="1587385525041" />
+    <state width="905" height="315" key="GridCell.Tab.2.left" timestamp="1587385525040">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="315" key="GridCell.Tab.2.left/0.0.1366.738@0.0.1366.738" timestamp="1587385525040" />
+    <state width="905" height="315" key="GridCell.Tab.2.right" timestamp="1587385525041">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="315" key="GridCell.Tab.2.right/0.0.1366.738@0.0.1366.738" timestamp="1587385525041" />
+    <state width="905" height="580" key="GridCell.Tab.3.bottom" timestamp="1586869084978">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="580" key="GridCell.Tab.3.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586869084978" />
+    <state width="905" height="580" key="GridCell.Tab.3.center" timestamp="1586869084978">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="580" key="GridCell.Tab.3.center/0.0.1366.738@0.0.1366.738" timestamp="1586869084978" />
+    <state width="905" height="580" key="GridCell.Tab.3.left" timestamp="1586869084978">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="580" key="GridCell.Tab.3.left/0.0.1366.738@0.0.1366.738" timestamp="1586869084978" />
+    <state width="905" height="580" key="GridCell.Tab.3.right" timestamp="1586869084978">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="580" key="GridCell.Tab.3.right/0.0.1366.738@0.0.1366.738" timestamp="1586869084978" />
+    <state width="905" height="580" key="GridCell.Tab.4.bottom" timestamp="1586869094132">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="580" key="GridCell.Tab.4.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586869094132" />
+    <state width="905" height="580" key="GridCell.Tab.4.center" timestamp="1586869094132">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="580" key="GridCell.Tab.4.center/0.0.1366.738@0.0.1366.738" timestamp="1586869094132" />
+    <state width="905" height="580" key="GridCell.Tab.4.left" timestamp="1586869094131">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="580" key="GridCell.Tab.4.left/0.0.1366.738@0.0.1366.738" timestamp="1586869094131" />
+    <state width="905" height="580" key="GridCell.Tab.4.right" timestamp="1586869094132">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="580" key="GridCell.Tab.4.right/0.0.1366.738@0.0.1366.738" timestamp="1586869094132" />
+    <state x="213" y="23" key="Maven.ArtifactSearchDialog" timestamp="1586806778783">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="213" y="23" key="Maven.ArtifactSearchDialog/0.0.1366.738@0.0.1366.738" timestamp="1586806778783" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1586866795738">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1586866795738" />
+    <state x="399" y="10" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1586951897840">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="399" y="10" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.738@0.0.1366.738" timestamp="1586951897840" />
+    <state x="379" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1587377273948">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="379" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1587377273948" />
+    <state x="414" y="99" width="607" height="526" key="find.popup" timestamp="1587636435183">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="414" y="99" width="607" height="526" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1587636435183" />
+    <state x="65" y="64" key="new project wizard" timestamp="1586865068246">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="65" y="64" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1586865068246" />
+    <state x="425" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1586870930971">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="425" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.738@0.0.1366.738" timestamp="1586870930971" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1586953220868">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1586953220868" />
+    <state x="359" y="51" key="spring file set editor" timestamp="1586803027006">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="359" y="51" key="spring file set editor/0.0.1366.738@0.0.1366.738" timestamp="1586803027006" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+</project>
