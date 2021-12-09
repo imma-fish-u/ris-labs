@@ -1,0 +1,4 @@
+model\Model.class
+entity\Firm.class
+entity\Worker.class
+controller\NewJSFManagedBean.class

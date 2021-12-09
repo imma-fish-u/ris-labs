@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:h="http://xmlns.jcp.org/jsf/html" xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+   <title>Work</title>
+</h:head>
+
+<h:form>
+   <h:commandButton value="Show all workers" action="#{newMB.moveToWorkers()}"/>
+</h:form>
+
+<br/>
+
+<h:form>
+   <h:commandButton value="Show all firms" action="#{newMB.moveToFirms()}"/>
+</h:form>
+
+<br/>
+
+<h:dataTable value="#{newMB.workers}" var="worker" cellspacing="0" border="1">
+   <h:column>
+      <f:facet name="header">Name</f:facet>
+      #{worker.name}
+   </h:column>
+   <h:column>
+      <f:facet name="header">Lastname</f:facet>
+      #{worker.lastname}
+   </h:column>
+   <h:column>
+      <f:facet name="header">Firm ID</f:facet>
+      #{worker.idFirm}
+   </h:column>
+</h:dataTable>
+
+<br/>
+
+<h:dataTable value="#{newMB.firms}" var="firm" cellspacing="0" border="1">
+   <h:column>
+      <f:facet name="header">Name Firm</f:facet>
+      #{firm.nameFirm}
+   </h:column>
+</h:dataTable>
+
+<br/>
+
+<h:form>
+   <h:inputText required="true" requiredMessage="Fill the field" value="#{newMB.name}" a:placeholder="Name"/>
+   <h:inputText required="true" requiredMessage="Fill the field" value="#{newMB.lastname}" a:placeholder="Lastname"/>
+   <h:commandButton value="Search workers" action="#{newMB.moveToSearchWorkers()}"/>
+</h:form>
+
+<br/>
+
+<h:form>
+   <h:inputText required="true" requiredMessage="Fill the field" value="#{newMB.firm.nameFirm}"
+                a:placeholder="Name firm"/>
+   <h:commandButton value="Add firm" action="#{newMB.addFirm()}"/>
+</h:form>
+
+<br/>
+
+<h:form>
+   <h:inputText required="true" requiredMessage="Fill the field" value="#{newMB.worker.name}" a:placeholder="Name"/>
+   <h:inputText required="true" requiredMessage="Fill the field" value="#{newMB.worker.lastname}" a:placeholder="Lastname"/>
+   <h:inputText required="true" requiredMessage="Fill the field" value="#{newMB.worker.idFirm}"
+                a:placeholder="Firm Id"/>
+   <h:commandButton value="Add worker" action="#{newMB.addWorker()}"/>
+</h:form>
+
+<br />
+
+<h:form>
+   <h:inputText required="true" requiredMessage="Fill the field" value="#{newMB.firm.nameFirm}"
+                a:placeholder="Name Firm"/>
+   <h:inputText required="true" requiredMessage="Fill the field" value="#{newMB.firm.idFirm}"
+                a:placeholder="ID"/>
+   <h:commandButton value="Delete firm" action="#{newMB.deleteFirm()}"/>
+</h:form>
+
+</html>
