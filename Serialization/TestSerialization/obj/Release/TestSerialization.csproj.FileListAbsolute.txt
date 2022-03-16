@@ -1,0 +1,9 @@
+D:\University\8сем\рисЧ2\Serialization\TestSerialization\bin\Release\TestSerialization.exe
+D:\University\8сем\рисЧ2\Serialization\TestSerialization\bin\Release\TestSerialization.pdb
+D:\University\8сем\рисЧ2\Serialization\TestSerialization\obj\Release\TestSerialization.csprojAssemblyReference.cache
+D:\University\8сем\рисЧ2\Serialization\TestSerialization\obj\Release\TestSerialization.Form1.resources
+D:\University\8сем\рисЧ2\Serialization\TestSerialization\obj\Release\TestSerialization.Properties.Resources.resources
+D:\University\8сем\рисЧ2\Serialization\TestSerialization\obj\Release\TestSerialization.csproj.GenerateResource.cache
+D:\University\8сем\рисЧ2\Serialization\TestSerialization\obj\Release\TestSerialization.csproj.CoreCompileInputs.cache
+D:\University\8сем\рисЧ2\Serialization\TestSerialization\obj\Release\TestSerialization.exe
+D:\University\8сем\рисЧ2\Serialization\TestSerialization\obj\Release\TestSerialization.pdb
