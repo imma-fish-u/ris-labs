@@ -8,43 +8,50 @@ using System.Windows.Forms;
 using DemoSerialization;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
-using System.Runtime.Serialization.Formatters.Soap;
-using System.Xml.Serialization;
 
 
 namespace TestSerialization
 {
     public partial class Form1 : Form
     {
+        private Employees emps = new Employees(); 
+
         public Form1()
         {
             InitializeComponent();
+            emps = (Employees)BinaryDeserialize("binary.txt");
         }
         #region Binary
 
         private void btnBSerialize_Click(object sender, EventArgs e)
         {
-            Employee emp=new Employee();
-            emp.empCode=Convert.ToInt16(txtbEmpCode.Text);
-            emp.EmpName=txtBEmpName.Text;
-            BinarySerialize(txtBinary.Text, emp);
+            BinarySerialize(txtBinary.Text, emps);
             MessageBox.Show("Binary Serialize Done!");
         }
 
         private void btnBDSerialize_Click(object sender, EventArgs e)
         {
-            Employee emp = new Employee();
-            emp = (Employee)BinaryDeserialize(txtBinary.Text);
-            lblBEmpCode.Text ="Emp Code:" + Convert.ToString(emp.empCode);
-            lblBEmpName.Text = "Emp Name:" + emp.EmpName;
+            Employees emps = (Employees)BinaryDeserialize(txtBinary.Text);
+            lblBEmpCode.Text = "";
+            lblBEmpName.Text = "";
+            lblBEmpStart.Text = "";
+            lblBEmpEnd.Text = "";
+
+            foreach (Employee emp in emps)
+            {
+                lblBEmpCode.Text += Convert.ToString(emp.empCode) + "\n";
+                lblBEmpName.Text += emp.EmpName + "\n";
+                lblBEmpStart.Text += emp.EmpStart + "\n";
+                lblBEmpEnd.Text += emp.EmpEnd + "\n";
+            }
 
         }
-        public void BinarySerialize(string filename, Employee emp)
+        public void BinarySerialize(string filename, Employees emps)
         {
             FileStream fileStreamObject;
             fileStreamObject = new FileStream(filename, FileMode.Create);
             BinaryFormatter binaryFormatter = new BinaryFormatter();
-            binaryFormatter.Serialize(fileStreamObject, emp);
+            binaryFormatter.Serialize(fileStreamObject, emps);
             fileStreamObject.Close();
 
         }
@@ -52,90 +59,25 @@ namespace TestSerialization
         {
             FileStream fileStreamObject = new FileStream(filename, FileMode.Open);
             BinaryFormatter binaryFormatter = new BinaryFormatter();
-            object obj = (object)binaryFormatter.Deserialize(fileStreamObject);
+            Employees emps = (Employees)binaryFormatter.Deserialize(fileStreamObject);
             fileStreamObject.Close();
-            return obj;
+            return emps;
         }
-         #endregion
 
-        #region SOAP
-            
-        private void btnSSerialize_Click(object sender, EventArgs e)
-        {
-            Employee emp = new Employee();
-            emp.empCode = Convert.ToInt16(txtSEmpCode.Text);
-            emp.EmpName = txtSEmpName.Text;
-            SOAPSerialize(txtSoap.Text, emp);
-            MessageBox.Show("SOAP Serialize Done!");
-        }
-       
-
-        private void btnSDeSerialize_Click(object sender, EventArgs e)
-        {
-            Employee emp = new Employee();
-            emp = (Employee)SOAPDeserialize(txtSoap.Text);
-            lblSEmpCode.Text = "Emp Code:" + Convert.ToString(emp.empCode);
-            lblSEmpName.Text = "Emp Name:" + emp.EmpName;
-        }
-        public void SOAPSerialize(string filename, Employee employeeObject)
-        {
-            FileStream fileStreamObject = new FileStream(filename, FileMode.Create);
-            SoapFormatter soapFormatter = new SoapFormatter();
-            soapFormatter.Serialize(fileStreamObject, employeeObject);
-            fileStreamObject.Close();
-        }
-        public static object SOAPDeserialize(string filename)
-        {
-            FileStream fileStreamObject = new FileStream(filename, FileMode.Open);
-            SoapFormatter soapFormatter = new SoapFormatter();
-            object obj = (object)soapFormatter.Deserialize(fileStreamObject);
-            fileStreamObject.Close();
-            return obj;
-        }
-        #endregion
-        #region Xml
-
-        private void btnXSerialize_Click(object sender, EventArgs e)
-        {
-            Employee emp = new Employee();
-            emp.empCode = Convert.ToInt16(txtXEmpCode.Text);
-            emp.EmpName = txtXEmpName.Text;
-            XMLSerialize(txtXml.Text, emp);
-            MessageBox.Show("Xml Serialize Done!");
-        }
-        private void btnXDeSerialize_Click(object sender, EventArgs e)
-        {
-            Employee emp = new Employee();
-            emp = (Employee)XMLDeserialize(txtXml.Text);
-            lblXEmpCode.Text = "Emp Code:" + Convert.ToString(emp.empCode);
-            lblXEmpName.Text = "Emp Name:" + emp.EmpName;
-        }
-        public void XMLSerialize(String filename, Employee emp)
-        {
-            XmlSerializer serializer = null;
-            FileStream stream = null;
-            serializer = new XmlSerializer(typeof(Employee));
-            stream = new FileStream(filename, FileMode.Create, FileAccess.Write);
-            serializer.Serialize(stream, emp);
-            if (stream != null)
-                stream.Close();
-        }
-        public static Employee XMLDeserialize(String filename)
-        {
-            XmlSerializer serializer = null;
-            FileStream stream = null;
-            Employee emp = new Employee();
-            serializer = new XmlSerializer(typeof(Employee));
-            stream = new FileStream(filename, FileMode.Open);
-            emp = (Employee)serializer.Deserialize(stream);
-            if (stream != null)
-                stream.Close();
-
-            return emp;
-        }
         #endregion
 
-       
-
+        private void BtnAdd_Click(object sender, EventArgs e)
+        {
+            Employee emp = new Employee();
+            emp.empCode = Convert.ToInt16(txtbEmpCode.Text);
+            emp.EmpName = txtBEmpName.Text;
+            emp.EmpStart = txtbEmpStart.Text;
+            emp.EmpEnd = txtbEmpEnd.Text;
+            txtbEmpCode.Text = "";
+            txtBEmpName.Text = "";
+            txtbEmpStart.Text = "";
+            txtbEmpEnd.Text = "";
+            emps.Add(emp);
+        }
     }
 }
